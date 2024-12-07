@@ -1,6 +1,6 @@
-# Hello World, I'm Ádilla, be very welcome
+# <div class="typing-effect">Hello World, I'm Leeh, be very welcome</div>
 
-<div align="center" style="display: flex; justify-content: center; gap: 30px;">
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
   <a href="https://github.com/Adilla-rgp">
     <img height="180em" width="400em" src="https://github-readme-stats.vercel.app/api?username=Adilla-rgp&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
     <img height="180em" width="560em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adilla-rgp&layout=compact&langs_count=6&theme=tokyonight"/>
@@ -25,3 +25,23 @@
   <a href="mailto:adillagomes3740@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/adilla-gomes/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div>
+
+<style>
+.typing-effect {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
+</style>

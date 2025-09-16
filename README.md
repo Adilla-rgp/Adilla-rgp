@@ -15,7 +15,7 @@
 
 ```javascript
 const adilla = {
-    code: ["JavaScript", "Python", "HTML/CSS", "C"],
+    code: ["TypeScript", "Python", "HTML/CSS", "C"],
     frameworks: ["React", "Vue.js", "Next.js", "Node.js"],
     styling: ["TailwindCSS", "Bootstrap", "CSS3"],
     currentFocus: "Building amazing web experiences",
@@ -28,9 +28,13 @@ const adilla = {
 ### GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Adilla-rgp&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=70A5FD&text_color=C9D1D9"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Adilla-rgp&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=70A5FD&text_color=C9D1D9"/>
   
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adilla-rgp&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adilla-rgp&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9"/>
+</div>
+
+<div align="center" style="margin-top: 20px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adilla-rgp&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9" />
 </div>
 
 
@@ -59,19 +63,6 @@ const adilla = {
 
 ---
 
-### Weekly Development Breakdown
-
-<!--START_SECTION:waka-->
-```text
-JavaScript   8 hrs 32 mins   ████████████▓░░░░░░░░░░░░   50.24% 
-React        4 hrs 12 mins   ██████▒░░░░░░░░░░░░░░░░░░   24.73% 
-CSS          2 hrs 45 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.18% 
-Python       1 hr 32 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.05% 
-```
-<!--END_SECTION:waka-->
-
----
-
 ### Connect With Me
 
 <div align="center">
@@ -88,15 +79,9 @@ Python       1 hr 32 mins    ██▒░░░░░░░░░░░░░░
 
 ---
 
-### Contribution Snake
-
-<div align="center">
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Adilla-rgp/Adilla-rgp/output/github-contribution-grid-snake-dark.svg" />
-</div>
-
----
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer&width=100%" />
+  
+  ### Thanks for visiting! Let's build something amazing together!
   
 </div>

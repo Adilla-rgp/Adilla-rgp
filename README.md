@@ -52,7 +52,7 @@ const adilla = {
 ### Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adilla-rgp&bg_color=0D1117&color=70A5FD&line=70A5FD&point=C9D1D9&area=true&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adilla-rgp&bg_color=0D1117&color=70A5FD&line=70A5FD&point=C9D1D9&area=true&hide_border=true&custom_title=My%20Coding%20Activity&radius=10" alt="GitHub Contribution Graph" />
 </div>
 
 ---
@@ -75,5 +75,7 @@ const adilla = {
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer&width=100%" />
+  
+  ### Thanks for visiting! Let's build something amazing together!
   
 </div>

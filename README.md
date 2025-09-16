@@ -19,7 +19,6 @@ const adilla = {
     frameworks: ["React", "Vue.js", "Next.js", "Node.js"],
     styling: ["TailwindCSS", "Bootstrap", "CSS3"],
     currentFocus: "Building amazing web experiences",
-    funFact: "I turn coffee into code"
 };
 ```
 

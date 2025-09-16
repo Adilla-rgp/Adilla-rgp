@@ -27,17 +27,11 @@ const adilla = {
 
 ### GitHub Analytics
 
-<div align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Adilla-rgp&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=70A5FD&text_color=C9D1D9"/>
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Adilla-rgp&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=70A5FD&text_color=C9D1D9&border_radius=10"/>
   
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adilla-rgp&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adilla-rgp&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&border_radius=10"/>
 </div>
-
-<div align="center" style="margin-top: 20px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adilla-rgp&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9" />
-</div>
-
-
 
 ---
 

@@ -23,7 +23,7 @@ const adilla = {
   languages: ["TypeScript", "Python", "SQL", "C"],
   web: ["React", "Next.js", "Node.js", "Tailwind"],
   dataAndAI: ["Pandas", "dbt", "Power BI", "LangGraph", "FastAPI"],
-  alsoAt: ["Connection (Project Director)", "Dacomp (Education Director)"],
+  alsoAt: ["Dacomp (Education Director)"],
 };
 ```
 

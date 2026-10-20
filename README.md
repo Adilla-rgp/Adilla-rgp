@@ -53,8 +53,24 @@ Tools<br/>
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adilla-rgp&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&border_radius=10" />
 </div>
 
+---
+
+### My year in code
+
 <div align="center">
   <img alt="My contributions as a 3D city" src="https://raw.githubusercontent.com/Adilla-rgp/Adilla-rgp/main/profile-3d-contrib/profile-night-view.svg" />
+  <br/>
+  <sub>Each building is one day of my last year on GitHub. The taller it is, the more I coded that day.</sub>
+</div>
+
+<br/>
+
+<div align="center">
+  <sub>Prefer the classic view? Here's the same year, flat.</sub>
+  <br/><br/>
+  <img alt="Contribution grid" src="https://ghchart.rshah.org/70A5FD/Adilla-rgp" />
+  <br/><br/>
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com/?user=Adilla-rgp&background=0D1117&ring=70A5FD&fire=70A5FD&currStreakLabel=70A5FD&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true&border_radius=10" />
 </div>
 
 ---

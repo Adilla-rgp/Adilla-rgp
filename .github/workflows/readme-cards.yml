@@ -1,0 +1,79 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # todo dia à meia-noite de São Luís (03:00 UTC)
+  push:
+    paths:
+      - ".github/workflows/readme-cards.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # Usa o token pessoal se existir (inclui repositórios privados); senão, só dados públicos
+      CARDS_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v5
+
+      # GitHub Stats
+      - name: Stats (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=Adilla-rgp&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=70A5FD&text_color=C9D1D9&border_radius=10"
+          path: profile/stats-dark.svg
+          token: ${{ env.CARDS_TOKEN }}
+
+      - name: Stats (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=Adilla-rgp&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=FFFFFF&title_color=2F6FD8&icon_color=2F6FD8&text_color=24292F&border_radius=10"
+          path: profile/stats-light.svg
+          token: ${{ env.CARDS_TOKEN }}
+
+      # Top languages
+      - name: Top languages (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=Adilla-rgp&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&border_radius=10"
+          path: profile/top-langs-dark.svg
+          token: ${{ env.CARDS_TOKEN }}
+
+      - name: Top languages (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=Adilla-rgp&layout=compact&langs_count=8&hide_border=true&bg_color=FFFFFF&title_color=2F6FD8&text_color=24292F&border_radius=10"
+          path: profile/top-langs-light.svg
+          token: ${{ env.CARDS_TOKEN }}
+
+      # Contribution streak
+      - name: Streak (dark)
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: "user=Adilla-rgp&disable_animations=true&background=0D1117&ring=70A5FD&fire=70A5FD&currStreakLabel=70A5FD&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true&border_radius=10"
+          path: profile/streak-dark.svg
+          token: ${{ env.CARDS_TOKEN }}
+
+      - name: Streak (light)
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: "user=Adilla-rgp&disable_animations=true&background=FFFFFF&ring=2F6FD8&fire=2F6FD8&currStreakLabel=2F6FD8&sideLabels=24292F&currStreakNum=24292F&sideNums=24292F&dates=57606A&stroke=D0D7DE&hide_border=true&border_radius=10"
+          path: profile/streak-light.svg
+          token: ${{ env.CARDS_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git pull --rebase
+          git push

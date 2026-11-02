@@ -86,12 +86,12 @@ Tools<br/>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Adilla-rgp&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=70A5FD&text_color=C9D1D9&border_radius=10" />
-    <img height="170" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Adilla-rgp&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=FFFFFF&title_color=2F6FD8&icon_color=2F6FD8&text_color=24292F&border_radius=10" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adilla-rgp/Adilla-rgp/main/profile/stats-dark.svg" />
+    <img height="170" alt="GitHub stats" src="https://raw.githubusercontent.com/Adilla-rgp/Adilla-rgp/main/profile/stats-light.svg" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Adilla-rgp&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&border_radius=10" />
-    <img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adilla-rgp&layout=compact&langs_count=8&hide_border=true&bg_color=FFFFFF&title_color=2F6FD8&text_color=24292F&border_radius=10" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adilla-rgp/Adilla-rgp/main/profile/top-langs-dark.svg" />
+    <img height="170" alt="Top languages" src="https://raw.githubusercontent.com/Adilla-rgp/Adilla-rgp/main/profile/top-langs-light.svg" />
   </picture>
 </div>
 
@@ -113,8 +113,8 @@ Tools<br/>
   <img alt="Contribution grid" src="https://ghchart.rshah.org/70A5FD/Adilla-rgp" />
   <br/><br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Adilla-rgp&background=0D1117&ring=70A5FD&fire=70A5FD&currStreakLabel=70A5FD&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&stroke=30363D&hide_border=true&border_radius=10" />
-    <img alt="Contribution streak" src="https://streak-stats.demolab.com/?user=Adilla-rgp&background=FFFFFF&ring=2F6FD8&fire=2F6FD8&currStreakLabel=2F6FD8&sideLabels=24292F&currStreakNum=24292F&sideNums=24292F&dates=57606A&stroke=D0D7DE&hide_border=true&border_radius=10" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adilla-rgp/Adilla-rgp/main/profile/streak-dark.svg" />
+    <img alt="Contribution streak" src="https://raw.githubusercontent.com/Adilla-rgp/Adilla-rgp/main/profile/streak-light.svg" />
   </picture>
 </div>
 
